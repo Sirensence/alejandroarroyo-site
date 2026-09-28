@@ -32,7 +32,7 @@ body::before {
 }
 
 a { color: inherit; text-decoration: none; }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 button, input { font: inherit; }
 .wrap { width: min(1180px, calc(100% - 3rem)); margin-inline: auto; }
 .section { padding: clamp(6rem, 11vw, 10rem) 0; }
