@@ -106,6 +106,9 @@ button, input { font: inherit; }
 .book-kicker { margin: 0 0 .75rem; color: #999; font-size: .68rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 .book-details h3 { margin: 0; font-family: var(--serif); font-size: clamp(2.8rem, 5.5vw, 5.4rem); font-weight: 400; letter-spacing: -.04em; line-height: .88; }
 .book-synopsis { max-width: 44rem; margin: 1.7rem 0 1.9rem; color: #c9c9c9; font-family: var(--serif); font-size: clamp(1rem, 1.45vw, 1.16rem); line-height: 1.68; }
+.book-audio-note { margin: 0 0 1rem; color: #b8b8b8; font-size: .82rem; line-height: 1.6; }
+.book-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 2rem; }
+.book-actions .book-link { min-height: 44px; }
 .book-link { display: inline-flex; align-items: center; padding-bottom: .35rem; border-bottom: 1px solid #777; font-size: .72rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; transition: border-color .25s; }
 .book-link:hover, .book-link:focus-visible { border-color: var(--white); }
 .book-link i { display: inline-block; margin-left: .65rem; font-size: 1.2rem; font-style: normal; transition: transform .25s; }
